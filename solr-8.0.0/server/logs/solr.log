@@ -1,0 +1,405 @@
+2020-06-27 17:40:20.584 INFO  (main) [   ] o.e.j.u.log Logging initialized @6149ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-06-27 17:40:21.300 WARN  (main) [   ] o.e.j.s.AbstractConnector Ignoring deprecated socket close linger time
+2020-06-27 17:40:21.376 INFO  (main) [   ] o.e.j.s.Server jetty-9.4.14.v20181114; built: 2018-11-14T21:20:31.478Z; git: c4550056e785fb5665914545889f21dc136ad9e6; jvm 1.8.0_251-b08
+2020-06-27 17:40:21.431 INFO  (main) [   ] o.e.j.d.p.ScanningAppProvider Deployment monitor [file:///C:/Users/moham/Desktop/Search_Solr/solr-8.0.0/server/contexts/] at interval 0
+2020-06-27 17:40:22.575 INFO  (main) [   ] o.e.j.w.StandardDescriptorProcessor NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+2020-06-27 17:40:22.590 INFO  (main) [   ] o.e.j.s.session DefaultSessionIdManager workerName=node0
+2020-06-27 17:40:22.590 INFO  (main) [   ] o.e.j.s.session No SessionScavenger set, using defaults
+2020-06-27 17:40:22.593 INFO  (main) [   ] o.e.j.s.session node0 Scavenging every 600000ms
+2020-06-27 17:40:22.709 INFO  (main) [   ] o.a.s.u.c.SSLCredentialProviderFactory Processing SSL Credential Provider chain: env;sysprop
+2020-06-27 17:40:22.748 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter Using logger factory org.apache.logging.slf4j.Log4jLoggerFactory
+2020-06-27 17:40:22.762 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter  ___      _       Welcome to Apache Solr™ version 8.0.0
+2020-06-27 17:40:22.762 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter / __| ___| |_ _   Starting in standalone mode on port 8983
+2020-06-27 17:40:22.762 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter \__ \/ _ \ | '_|  Install dir: C:\Users\moham\Desktop\Search_Solr\solr-8.0.0
+2020-06-27 17:40:22.763 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter |___/\___/_|_|    Start time: 2020-06-27T17:40:22.763Z
+2020-06-27 17:40:22.845 INFO  (main) [   ] o.a.s.c.SolrResourceLoader Using system property solr.solr.home: C:\Users\moham\Desktop\Search_Solr\solr-8.0.0\server\solr
+2020-06-27 17:40:22.869 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from C:\Users\moham\Desktop\Search_Solr\solr-8.0.0\server\solr\solr.xml
+2020-06-27 17:40:23.072 INFO  (main) [   ] o.a.s.c.SolrXmlConfig MBean server found: com.sun.jmx.mbeanserver.JmxMBeanServer@797badd3, but no JMX reporters were configured - adding default JMX reporter.
+2020-06-27 17:40:23.824 INFO  (main) [   ] o.a.s.c.SolrResourceLoader [null] Added 1 libs to classloader, from paths: [/C:/Users/moham/Desktop/Search_Solr/solr-8.0.0/server/solr/lib]
+2020-06-27 17:40:24.155 INFO  (main) [   ] o.a.s.h.c.HttpShardHandlerFactory Host whitelist initialized: WhitelistHostChecker [whitelistHosts=null, whitelistHostCheckingEnabled=true]
+2020-06-27 17:40:24.879 WARN  (main) [   ] o.e.j.u.s.S.config No Client EndPointIdentificationAlgorithm configured for SslContextFactory@1755e85b[provider=null,keyStore=null,trustStore=null]
+2020-06-27 17:40:25.020 WARN  (main) [   ] o.e.j.u.s.S.config No Client EndPointIdentificationAlgorithm configured for SslContextFactory@5ad10c1a[provider=null,keyStore=null,trustStore=null]
+2020-06-27 17:40:25.258 INFO  (main) [   ] o.a.s.c.TransientSolrCoreCacheDefault Allocating transient cache for 2147483647 transient cores
+2020-06-27 17:40:25.259 INFO  (main) [   ] o.a.s.h.a.MetricsHistoryHandler No .system collection, keeping metrics history in memory.
+2020-06-27 17:40:25.374 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.node' (registry 'solr.node') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@797badd3
+2020-06-27 17:40:25.375 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.jvm' (registry 'solr.jvm') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@797badd3
+2020-06-27 17:40:25.383 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.jetty' (registry 'solr.jetty') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@797badd3
+2020-06-27 17:40:25.941 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found 1 core definitions underneath C:\Users\moham\Desktop\Search_Solr\solr-8.0.0\server\solr
+2020-06-27 17:40:25.942 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Cores are: [FileCollection]
+2020-06-27 17:40:26.319 INFO  (coreLoadExecutor-9-thread-1) [   x:FileCollection] o.a.s.c.SolrResourceLoader [FileCollection] Added 103 libs to classloader, from paths: [/C:/Users/moham/Desktop/Search_Solr/solr-8.0.0/contrib/clustering/lib, /C:/Users/moham/Desktop/Search_Solr/solr-8.0.0/contrib/extraction/lib, /C:/Users/moham/Desktop/Search_Solr/solr-8.0.0/contrib/langid/lib, /C:/Users/moham/Desktop/Search_Solr/solr-8.0.0/contrib/velocity/lib, /C:/Users/moham/Desktop/Search_Solr/solr-8.0.0/dist]
+2020-06-27 17:40:30.025 INFO  (coreLoadExecutor-9-thread-1) [   x:FileCollection] o.a.s.c.SolrConfig Using Lucene MatchVersion: 8.0.0
+2020-06-27 17:40:30.557 INFO  (coreLoadExecutor-9-thread-1) [   x:FileCollection] o.a.s.s.IndexSchema [FileCollection] Schema name=default-config
+2020-06-27 17:40:32.306 INFO  (main) [   ] o.e.j.s.h.ContextHandler Started o.e.j.w.WebAppContext@610f7aa{/solr,file:///C:/Users/moham/Desktop/Search_Solr/solr-8.0.0/server/solr-webapp/webapp/,AVAILABLE}{C:\Users\moham\Desktop\Search_Solr\solr-8.0.0\server/solr-webapp/webapp}
+2020-06-27 17:40:32.335 INFO  (main) [   ] o.e.j.s.AbstractConnector Started ServerConnector@182b435b{HTTP/1.1,[http/1.1, h2c]}{0.0.0.0:8983}
+2020-06-27 17:40:32.339 INFO  (main) [   ] o.e.j.s.Server Started @17906ms
+2020-06-27 17:40:32.524 INFO  (coreLoadExecutor-9-thread-1) [   x:FileCollection] o.a.s.s.IndexSchema Loaded schema default-config/1.6 with uniqueid field id
+2020-06-27 17:40:32.613 INFO  (coreLoadExecutor-9-thread-1) [   x:FileCollection] o.a.s.c.CoreContainer Creating SolrCore 'FileCollection' using configuration from instancedir C:\Users\moham\Desktop\Search_Solr\solr-8.0.0\server\solr\FileCollection, trusted=true
+2020-06-27 17:40:32.714 INFO  (coreLoadExecutor-9-thread-1) [   x:FileCollection] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.core.FileCollection' (registry 'solr.core.FileCollection') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@797badd3
+2020-06-27 17:40:32.782 INFO  (coreLoadExecutor-9-thread-1) [   x:FileCollection] o.a.s.c.SolrCore [[FileCollection] ] Opening new SolrCore at [C:\Users\moham\Desktop\Search_Solr\solr-8.0.0\server\solr\FileCollection], dataDir=[C:\Users\moham\Desktop\Search_Solr\solr-8.0.0\server\solr\FileCollection\data\]
+2020-06-27 17:40:32.970 INFO  (coreLoadExecutor-9-thread-1) [   x:FileCollection] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2020-06-27 17:40:33.003 INFO  (qtp349420578-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=150
+2020-06-27 17:40:34.044 INFO  (coreLoadExecutor-9-thread-1) [   x:FileCollection] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2020-06-27 17:40:34.044 INFO  (coreLoadExecutor-9-thread-1) [   x:FileCollection] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2020-06-27 17:40:34.486 INFO  (coreLoadExecutor-9-thread-1) [   x:FileCollection] o.a.s.u.CommitTracker Hard AutoCommit: if uncommitted for 15000ms; 
+2020-06-27 17:40:34.486 INFO  (coreLoadExecutor-9-thread-1) [   x:FileCollection] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2020-06-27 17:40:34.867 INFO  (coreLoadExecutor-9-thread-1) [   x:FileCollection] o.a.s.s.SolrIndexSearcher Opening [Searcher@d72861f[FileCollection] main]
+2020-06-27 17:40:34.902 INFO  (coreLoadExecutor-9-thread-1) [   x:FileCollection] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: C:\Users\moham\Desktop\Search_Solr\solr-8.0.0\server\solr\FileCollection\conf
+2020-06-27 17:40:35.027 INFO  (coreLoadExecutor-9-thread-1) [   x:FileCollection] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2020-06-27 17:40:35.036 INFO  (coreLoadExecutor-9-thread-1) [   x:FileCollection] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2020-06-27 17:40:35.052 INFO  (coreLoadExecutor-9-thread-1) [   x:FileCollection] o.a.s.h.ReplicationHandler Commits will be reserved for 10000ms.
+2020-06-27 17:40:35.092 INFO  (searcherExecutor-10-thread-1-processing-x:FileCollection) [   x:FileCollection] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@d72861f[FileCollection] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_ps(8.0.0):C4:[diagnostics={java.runtime.version=1.8.0_251-b08, java.vendor=Oracle Corporation, java.version=1.8.0_251, java.vm.version=25.251-b08, lucene.version=8.0.0, os=Windows 10, os.arch=amd64, os.version=10.0, source=flush, timestamp=1593217925994}]:[attributes={Lucene50StoredFieldsFormat.mode=BEST_SPEED}])))}
+2020-06-27 17:40:35.092 INFO  (searcherExecutor-10-thread-1-processing-x:FileCollection) [   x:FileCollection] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2020-06-27 17:40:35.092 INFO  (searcherExecutor-10-thread-1-processing-x:FileCollection) [   x:FileCollection] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2020-06-27 17:40:35.099 INFO  (searcherExecutor-10-thread-1-processing-x:FileCollection) [   x:FileCollection] o.a.s.c.SolrCore [FileCollection] Registered new searcher Searcher@d72861f[FileCollection] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_ps(8.0.0):C4:[diagnostics={java.runtime.version=1.8.0_251-b08, java.vendor=Oracle Corporation, java.version=1.8.0_251, java.vm.version=25.251-b08, lucene.version=8.0.0, os=Windows 10, os.arch=amd64, os.version=10.0, source=flush, timestamp=1593217925994}]:[attributes={Lucene50StoredFieldsFormat.mode=BEST_SPEED}])))}
+2020-06-27 17:40:51.380 INFO  (qtp349420578-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1593279651066} status=0 QTime=1
+2020-06-27 17:40:51.454 INFO  (qtp349420578-14) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1593279651067} status=0 QTime=75
+2020-06-27 17:40:51.513 INFO  (qtp349420578-22) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1593279651067} status=0 QTime=51
+2020-06-27 17:40:53.898 INFO  (qtp349420578-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1593279651066} status=0 QTime=0
+2020-06-27 17:40:53.917 INFO  (qtp349420578-21) [   x:FileCollection] o.a.s.c.S.Request [FileCollection]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1593279653889} status=0 QTime=6
+2020-06-27 17:40:53.925 INFO  (qtp349420578-22) [   x:FileCollection] o.a.s.c.S.Request [FileCollection]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1593279651067&ts=1593279651067} status=503 QTime=2
+2020-06-27 17:40:53.935 INFO  (qtp349420578-16) [   x:FileCollection] o.a.s.c.S.Request [FileCollection]  webapp=/solr path=/replication params={wt=json&command=details&_=1593279653889} status=0 QTime=8
+2020-06-27 17:40:54.018 INFO  (qtp349420578-20) [   x:FileCollection] o.a.s.c.S.Request [FileCollection]  webapp=/solr path=/admin/system params={wt=json&_=1593279653889} status=0 QTime=104
+2020-06-27 17:40:54.019 INFO  (qtp349420578-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1593279651067} status=0 QTime=116
+2020-06-27 17:40:55.595 INFO  (qtp349420578-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1593279651066} status=0 QTime=0
+2020-06-27 17:40:55.633 INFO  (qtp349420578-14) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1593279651067} status=0 QTime=38
+2020-06-27 17:40:57.933 INFO  (qtp349420578-15) [   x:FileCollection] o.a.s.c.S.Request [FileCollection]  webapp=/solr path=/select params={q=*:*&_=1593279655559} hits=4 status=0 QTime=35
+2020-06-27 17:41:35.252 INFO  (qtp349420578-14) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1593279651066} status=0 QTime=0
+2020-06-27 17:41:35.260 INFO  (qtp349420578-21) [   x:FileCollection] o.a.s.c.S.Request [FileCollection]  webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1593279653889} status=0 QTime=7
+2020-06-27 17:41:35.319 INFO  (qtp349420578-15) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1593279651067} status=0 QTime=67
+2020-06-27 17:41:42.804 INFO  (qtp349420578-14) [   x:FileCollection] o.a.s.s.SolrIndexSearcher Opening [Searcher@fc3d723[FileCollection] realtime]
+2020-06-27 17:41:42.806 INFO  (qtp349420578-14) [   x:FileCollection] o.a.s.u.p.LogUpdateProcessorFactory [FileCollection]  webapp=/solr path=/update params={commitWithin=1000&overwrite=true&wt=json}{deleteByQuery=*:* (-1670674857610706944)} 0 156
+2020-06-27 17:41:43.806 INFO  (commitScheduler-14-thread-1) [   ] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=true,prepareCommit=false}
+2020-06-27 17:41:43.806 INFO  (commitScheduler-14-thread-1) [   ] o.a.s.s.SolrIndexSearcher Opening [Searcher@7e7b16b4[FileCollection] main]
+2020-06-27 17:41:43.807 INFO  (commitScheduler-14-thread-1) [   ] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2020-06-27 17:41:43.811 INFO  (searcherExecutor-10-thread-1) [   ] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@7e7b16b4[FileCollection] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2020-06-27 17:41:43.811 INFO  (searcherExecutor-10-thread-1) [   ] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2020-06-27 17:41:43.834 INFO  (searcherExecutor-10-thread-1) [   ] o.a.s.c.SolrCore [FileCollection] Registered new searcher Searcher@7e7b16b4[FileCollection] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2020-06-27 17:41:44.973 INFO  (qtp349420578-15) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1593279651066} status=0 QTime=0
+2020-06-27 17:41:44.979 INFO  (qtp349420578-14) [   x:FileCollection] o.a.s.c.S.Request [FileCollection]  webapp=/solr path=/replication params={wt=json&command=details&_=1593279653889} status=0 QTime=3
+2020-06-27 17:41:44.986 INFO  (qtp349420578-22) [   x:FileCollection] o.a.s.c.S.Request [FileCollection]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1593279653889} status=0 QTime=0
+2020-06-27 17:41:44.989 INFO  (qtp349420578-22) [   x:FileCollection] o.a.s.c.S.Request [FileCollection]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1593279651067&ts=1593279651067} status=503 QTime=0
+2020-06-27 17:41:45.060 INFO  (qtp349420578-17) [   x:FileCollection] o.a.s.c.S.Request [FileCollection]  webapp=/solr path=/admin/system params={wt=json&_=1593279653889} status=0 QTime=83
+2020-06-27 17:41:45.060 INFO  (qtp349420578-15) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1593279651067} status=0 QTime=84
+2020-06-27 17:41:57.805 INFO  (commitScheduler-13-thread-1) [   ] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=false,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2020-06-27 17:41:57.805 INFO  (commitScheduler-13-thread-1) [   ] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@731ec0cc commitCommandVersion:0
+2020-06-27 17:41:57.885 INFO  (commitScheduler-13-thread-1) [   ] o.a.s.s.SolrIndexSearcher Opening [Searcher@296faa13[FileCollection] realtime]
+2020-06-27 17:41:57.887 INFO  (commitScheduler-13-thread-1) [   ] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2020-06-27 17:42:09.236 INFO  (qtp349420578-14) [   x:FileCollection] o.a.s.h.d.DataImporter Loading DIH Configuration: db-data-config.xml
+2020-06-27 17:42:09.286 INFO  (qtp349420578-14) [   x:FileCollection] o.a.s.h.d.c.DIHConfiguration id is a required field in SolrSchema . But not found in DataConfig
+2020-06-27 17:42:09.286 INFO  (qtp349420578-14) [   x:FileCollection] o.a.s.h.d.DataImporter Data Configuration loaded successfully
+2020-06-27 17:42:09.292 INFO  (qtp349420578-14) [   x:FileCollection] o.a.s.c.S.Request [FileCollection]  webapp=/solr path=/dataimport params={command=full-import} status=0 QTime=58
+2020-06-27 17:42:09.292 INFO  (Thread-15) [   ] o.a.s.h.d.DataImporter Starting Full Import
+2020-06-27 17:42:09.325 INFO  (Thread-15) [   ] o.a.s.h.d.SimplePropertiesWriter Read dataimport.properties
+2020-06-27 17:42:09.694 INFO  (Thread-15) [   ] o.a.s.h.d.JdbcDataSource Creating a connection for entity search with URL: jdbc:mysql://localhost:3306/laravel?serverTimezone=UTC
+2020-06-27 17:42:10.267 INFO  (Thread-15) [   ] o.a.s.h.d.JdbcDataSource Time taken for getConnection(): 572
+2020-06-27 17:42:10.307 INFO  (Thread-15) [   ] o.a.s.h.d.JdbcDataSource Creating a connection for entity user with URL: jdbc:mysql://localhost:3306/laravel?serverTimezone=UTC
+2020-06-27 17:42:10.313 INFO  (Thread-15) [   ] o.a.s.h.d.JdbcDataSource Time taken for getConnection(): 5
+2020-06-27 17:42:13.343 INFO  (Thread-15) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font Arial,Bold are not implemented in PDFBox and will be ignored
+2020-06-27 17:42:13.357 INFO  (Thread-15) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font Arial are not implemented in PDFBox and will be ignored
+2020-06-27 17:42:13.386 INFO  (Thread-15) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font ABCDEE+Calibri,Bold are not implemented in PDFBox and will be ignored
+2020-06-27 17:42:13.643 INFO  (Thread-15) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font Arial are not implemented in PDFBox and will be ignored
+2020-06-27 17:42:13.649 INFO  (Thread-15) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font ABCDEE+Calibri,Bold are not implemented in PDFBox and will be ignored
+2020-06-27 17:42:13.662 INFO  (Thread-15) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font ABCDEE+MS PGothic are not implemented in PDFBox and will be ignored
+2020-06-27 17:42:13.739 INFO  (Thread-15) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font Arial,Bold are not implemented in PDFBox and will be ignored
+2020-06-27 17:42:13.881 INFO  (Thread-15) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font Arial are not implemented in PDFBox and will be ignored
+2020-06-27 17:42:13.930 INFO  (Thread-15) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font Arial,Bold are not implemented in PDFBox and will be ignored
+2020-06-27 17:42:14.252 INFO  (Thread-15) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font ABCDEE+Calibri,Bold are not implemented in PDFBox and will be ignored
+2020-06-27 17:42:14.268 INFO  (Thread-15) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font Arial are not implemented in PDFBox and will be ignored
+2020-06-27 17:42:14.376 INFO  (Thread-15) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font Arial,Bold are not implemented in PDFBox and will be ignored
+2020-06-27 17:42:15.007 INFO  (Thread-15) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font ABCDEE+Verdana are not implemented in PDFBox and will be ignored
+2020-06-27 17:42:15.075 INFO  (Thread-15) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font ABCDEE+Verdana,Italic are not implemented in PDFBox and will be ignored
+2020-06-27 17:42:15.221 INFO  (Thread-15) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font ABCDEE+Verdana are not implemented in PDFBox and will be ignored
+2020-06-27 17:42:15.245 INFO  (Thread-15) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font Arial are not implemented in PDFBox and will be ignored
+2020-06-27 17:42:15.481 INFO  (Thread-15) [   ] o.a.s.h.d.DocBuilder Import completed successfully
+2020-06-27 17:42:15.481 INFO  (Thread-15) [   ] o.a.s.u.DirectUpdateHandler2 start commit{_version_=1670674891911725056,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2020-06-27 17:42:15.481 INFO  (Thread-15) [   ] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@731ec0cc commitCommandVersion:1670674891911725056
+2020-06-27 17:42:16.491 INFO  (Thread-15) [   ] o.a.s.s.SolrIndexSearcher Opening [Searcher@53355e4d[FileCollection] main]
+2020-06-27 17:42:16.517 INFO  (searcherExecutor-10-thread-1) [   ] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@53355e4d[FileCollection] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_pt(8.0.0):C8:[diagnostics={os=Windows 10, java.vendor=Oracle Corporation, java.version=1.8.0_251, java.vm.version=25.251-b08, lucene.version=8.0.0, os.arch=amd64, java.runtime.version=1.8.0_251-b08, source=flush, os.version=10.0, timestamp=1593279735704}]:[attributes={Lucene50StoredFieldsFormat.mode=BEST_SPEED}])))}
+2020-06-27 17:42:16.517 INFO  (searcherExecutor-10-thread-1) [   ] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2020-06-27 17:42:16.517 INFO  (Thread-15) [   ] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2020-06-27 17:42:16.524 INFO  (searcherExecutor-10-thread-1) [   ] o.a.s.c.SolrCore [FileCollection] Registered new searcher Searcher@53355e4d[FileCollection] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_pt(8.0.0):C8:[diagnostics={os=Windows 10, java.vendor=Oracle Corporation, java.version=1.8.0_251, java.vm.version=25.251-b08, lucene.version=8.0.0, os.arch=amd64, java.runtime.version=1.8.0_251-b08, source=flush, os.version=10.0, timestamp=1593279735704}]:[attributes={Lucene50StoredFieldsFormat.mode=BEST_SPEED}])))}
+2020-06-27 17:42:16.526 INFO  (Thread-15) [   ] o.a.s.h.d.SimplePropertiesWriter Read dataimport.properties
+2020-06-27 17:42:16.527 INFO  (Thread-15) [   ] o.a.s.h.d.SimplePropertiesWriter Wrote last indexed time to dataimport.properties
+2020-06-27 17:42:16.527 INFO  (Thread-15) [   ] o.a.s.h.d.DocBuilder Time taken = 0:0:7.201
+2020-06-27 17:42:16.528 INFO  (Thread-15) [   ] o.a.s.u.p.LogUpdateProcessorFactory [FileCollection]  webapp=/solr path=/dataimport params={command=full-import} status=0 QTime=58{deleteByQuery=*:* (-1670674885591957504),add=[1 (1670674889230516224), 2 (1670674889854418944), 3 (1670674890160603136), 4 (1670674890354589696), 5 (1670674890775068672), 7 (1670674891335008256), 8 (1670674891556257792), 9 (1670674891902287872)],commit=} 0 7294
+2020-06-27 17:42:17.390 INFO  (qtp349420578-21) [   x:FileCollection] o.a.s.h.d.DataImporter Loading DIH Configuration: db-data-config.xml
+2020-06-27 17:42:17.392 INFO  (qtp349420578-21) [   x:FileCollection] o.a.s.h.d.c.DIHConfiguration id is a required field in SolrSchema . But not found in DataConfig
+2020-06-27 17:42:17.392 INFO  (qtp349420578-21) [   x:FileCollection] o.a.s.h.d.DataImporter Data Configuration loaded successfully
+2020-06-27 17:42:17.406 INFO  (qtp349420578-21) [   x:FileCollection] o.a.s.c.S.Request [FileCollection]  webapp=/solr path=/dataimport params={command=full-import} status=0 QTime=23
+2020-06-27 17:42:17.408 INFO  (Thread-16) [   ] o.a.s.h.d.DataImporter Starting Full Import
+2020-06-27 17:42:17.443 INFO  (Thread-16) [   ] o.a.s.h.d.SimplePropertiesWriter Read dataimport.properties
+2020-06-27 17:42:17.452 INFO  (Thread-16) [   ] o.a.s.s.SolrIndexSearcher Opening [Searcher@13817091[FileCollection] realtime]
+2020-06-27 17:42:17.463 INFO  (Thread-16) [   ] o.a.s.h.d.JdbcDataSource Creating a connection for entity search with URL: jdbc:mysql://localhost:3306/laravel?serverTimezone=UTC
+2020-06-27 17:42:17.472 INFO  (Thread-16) [   ] o.a.s.h.d.JdbcDataSource Time taken for getConnection(): 9
+2020-06-27 17:42:17.476 INFO  (qtp349420578-17) [   x:FileCollection] o.a.s.c.S.Request [FileCollection]  webapp=/solr path=/select params={q=text:*asp*&start=0&rows=5&wt=php} hits=5 status=0 QTime=64
+2020-06-27 17:42:17.482 INFO  (Thread-16) [   ] o.a.s.h.d.JdbcDataSource Creating a connection for entity user with URL: jdbc:mysql://localhost:3306/laravel?serverTimezone=UTC
+2020-06-27 17:42:17.497 INFO  (Thread-16) [   ] o.a.s.h.d.JdbcDataSource Time taken for getConnection(): 15
+2020-06-27 17:42:17.994 INFO  (Thread-16) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font Arial,Bold are not implemented in PDFBox and will be ignored
+2020-06-27 17:42:18.001 INFO  (Thread-16) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font Arial are not implemented in PDFBox and will be ignored
+2020-06-27 17:42:18.005 INFO  (Thread-16) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font ABCDEE+Calibri,Bold are not implemented in PDFBox and will be ignored
+2020-06-27 17:42:18.146 INFO  (Thread-16) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font Arial are not implemented in PDFBox and will be ignored
+2020-06-27 17:42:18.150 INFO  (Thread-16) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font ABCDEE+Calibri,Bold are not implemented in PDFBox and will be ignored
+2020-06-27 17:42:18.158 INFO  (Thread-16) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font ABCDEE+MS PGothic are not implemented in PDFBox and will be ignored
+2020-06-27 17:42:18.208 INFO  (Thread-16) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font Arial,Bold are not implemented in PDFBox and will be ignored
+2020-06-27 17:42:18.291 INFO  (Thread-16) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font Arial are not implemented in PDFBox and will be ignored
+2020-06-27 17:42:18.302 INFO  (Thread-16) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font Arial,Bold are not implemented in PDFBox and will be ignored
+2020-06-27 17:42:18.412 INFO  (Thread-16) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font ABCDEE+Calibri,Bold are not implemented in PDFBox and will be ignored
+2020-06-27 17:42:18.420 INFO  (Thread-16) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font Arial are not implemented in PDFBox and will be ignored
+2020-06-27 17:42:18.485 INFO  (Thread-16) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font Arial,Bold are not implemented in PDFBox and will be ignored
+2020-06-27 17:42:18.895 INFO  (Thread-16) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font ABCDEE+Verdana are not implemented in PDFBox and will be ignored
+2020-06-27 17:42:18.968 INFO  (Thread-16) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font ABCDEE+Verdana,Italic are not implemented in PDFBox and will be ignored
+2020-06-27 17:42:19.114 INFO  (Thread-16) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font ABCDEE+Verdana are not implemented in PDFBox and will be ignored
+2020-06-27 17:42:19.125 INFO  (Thread-16) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font Arial are not implemented in PDFBox and will be ignored
+2020-06-27 17:42:19.299 INFO  (Thread-16) [   ] o.a.s.h.d.DocBuilder Import completed successfully
+2020-06-27 17:42:19.300 INFO  (Thread-16) [   ] o.a.s.u.DirectUpdateHandler2 start commit{_version_=1670674895916236800,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2020-06-27 17:42:19.300 INFO  (Thread-16) [   ] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@731ec0cc commitCommandVersion:1670674895916236800
+2020-06-27 17:42:20.650 INFO  (Thread-16) [   ] o.a.s.s.SolrIndexSearcher Opening [Searcher@72ff39b4[FileCollection] main]
+2020-06-27 17:42:20.651 INFO  (searcherExecutor-10-thread-1) [   ] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@72ff39b4[FileCollection] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_pu(8.0.0):C8:[diagnostics={os=Windows 10, java.vendor=Oracle Corporation, java.version=1.8.0_251, java.vm.version=25.251-b08, lucene.version=8.0.0, os.arch=amd64, java.runtime.version=1.8.0_251-b08, source=flush, os.version=10.0, timestamp=1593279739346}]:[attributes={Lucene50StoredFieldsFormat.mode=BEST_SPEED}])))}
+2020-06-27 17:42:20.651 INFO  (searcherExecutor-10-thread-1) [   ] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2020-06-27 17:42:20.655 INFO  (searcherExecutor-10-thread-1) [   ] o.a.s.c.SolrCore [FileCollection] Registered new searcher Searcher@72ff39b4[FileCollection] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_pu(8.0.0):C8:[diagnostics={os=Windows 10, java.vendor=Oracle Corporation, java.version=1.8.0_251, java.vm.version=25.251-b08, lucene.version=8.0.0, os.arch=amd64, java.runtime.version=1.8.0_251-b08, source=flush, os.version=10.0, timestamp=1593279739346}]:[attributes={Lucene50StoredFieldsFormat.mode=BEST_SPEED}])))}
+2020-06-27 17:42:20.664 INFO  (Thread-16) [   ] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2020-06-27 17:42:20.697 INFO  (Thread-16) [   ] o.a.s.h.d.SimplePropertiesWriter Read dataimport.properties
+2020-06-27 17:42:20.698 INFO  (Thread-16) [   ] o.a.s.h.d.SimplePropertiesWriter Wrote last indexed time to dataimport.properties
+2020-06-27 17:42:20.698 INFO  (Thread-16) [   ] o.a.s.h.d.DocBuilder Time taken = 0:0:3.254
+2020-06-27 17:42:20.698 INFO  (Thread-16) [   ] o.a.s.u.p.LogUpdateProcessorFactory [FileCollection]  webapp=/solr path=/dataimport params={command=full-import} status=0 QTime=23{deleteByQuery=*:* (-1670674893976371200),add=[1 (1670674894481784832), 2 (1670674894595031040), 3 (1670674894818377728), 4 (1670674894885486592), 5 (1670674895072133120), 7 (1670674895409774592), 8 (1670674895616344064), 9 (1670674895910993920)],commit=} 0 3315
+2020-06-27 17:42:25.117 INFO  (qtp349420578-14) [   x:FileCollection] o.a.s.h.d.DataImporter Loading DIH Configuration: db-data-config.xml
+2020-06-27 17:42:25.118 INFO  (qtp349420578-14) [   x:FileCollection] o.a.s.h.d.c.DIHConfiguration id is a required field in SolrSchema . But not found in DataConfig
+2020-06-27 17:42:25.118 INFO  (qtp349420578-14) [   x:FileCollection] o.a.s.h.d.DataImporter Data Configuration loaded successfully
+2020-06-27 17:42:25.119 INFO  (qtp349420578-14) [   x:FileCollection] o.a.s.c.S.Request [FileCollection]  webapp=/solr path=/dataimport params={command=full-import} status=0 QTime=3
+2020-06-27 17:42:25.119 INFO  (Thread-17) [   ] o.a.s.h.d.DataImporter Starting Full Import
+2020-06-27 17:42:25.139 INFO  (Thread-17) [   ] o.a.s.h.d.SimplePropertiesWriter Read dataimport.properties
+2020-06-27 17:42:25.145 INFO  (qtp349420578-21) [   x:FileCollection] o.a.s.c.S.Request [FileCollection]  webapp=/solr path=/select params={q=text:*ouarrachi*&start=0&rows=5&wt=php} hits=4 status=0 QTime=22
+2020-06-27 17:42:25.148 INFO  (Thread-17) [   ] o.a.s.s.SolrIndexSearcher Opening [Searcher@5623be8d[FileCollection] realtime]
+2020-06-27 17:42:25.166 INFO  (Thread-17) [   ] o.a.s.h.d.JdbcDataSource Creating a connection for entity search with URL: jdbc:mysql://localhost:3306/laravel?serverTimezone=UTC
+2020-06-27 17:42:25.171 INFO  (Thread-17) [   ] o.a.s.h.d.JdbcDataSource Time taken for getConnection(): 4
+2020-06-27 17:42:25.176 INFO  (Thread-17) [   ] o.a.s.h.d.JdbcDataSource Creating a connection for entity user with URL: jdbc:mysql://localhost:3306/laravel?serverTimezone=UTC
+2020-06-27 17:42:25.181 INFO  (Thread-17) [   ] o.a.s.h.d.JdbcDataSource Time taken for getConnection(): 4
+2020-06-27 17:42:25.424 INFO  (Thread-17) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font Arial,Bold are not implemented in PDFBox and will be ignored
+2020-06-27 17:42:25.431 INFO  (Thread-17) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font Arial are not implemented in PDFBox and will be ignored
+2020-06-27 17:42:25.434 INFO  (Thread-17) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font ABCDEE+Calibri,Bold are not implemented in PDFBox and will be ignored
+2020-06-27 17:42:25.553 INFO  (Thread-17) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font Arial are not implemented in PDFBox and will be ignored
+2020-06-27 17:42:25.556 INFO  (Thread-17) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font ABCDEE+Calibri,Bold are not implemented in PDFBox and will be ignored
+2020-06-27 17:42:25.561 INFO  (Thread-17) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font ABCDEE+MS PGothic are not implemented in PDFBox and will be ignored
+2020-06-27 17:42:25.582 INFO  (Thread-17) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font Arial,Bold are not implemented in PDFBox and will be ignored
+2020-06-27 17:42:25.628 INFO  (Thread-17) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font Arial are not implemented in PDFBox and will be ignored
+2020-06-27 17:42:25.653 INFO  (Thread-17) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font Arial,Bold are not implemented in PDFBox and will be ignored
+2020-06-27 17:42:25.716 INFO  (Thread-17) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font ABCDEE+Calibri,Bold are not implemented in PDFBox and will be ignored
+2020-06-27 17:42:25.722 INFO  (Thread-17) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font Arial are not implemented in PDFBox and will be ignored
+2020-06-27 17:42:25.765 INFO  (Thread-17) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font Arial,Bold are not implemented in PDFBox and will be ignored
+2020-06-27 17:42:26.075 INFO  (Thread-17) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font ABCDEE+Verdana are not implemented in PDFBox and will be ignored
+2020-06-27 17:42:26.095 INFO  (Thread-17) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font ABCDEE+Verdana,Italic are not implemented in PDFBox and will be ignored
+2020-06-27 17:42:26.193 INFO  (Thread-17) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font ABCDEE+Verdana are not implemented in PDFBox and will be ignored
+2020-06-27 17:42:26.207 INFO  (Thread-17) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font Arial are not implemented in PDFBox and will be ignored
+2020-06-27 17:42:26.341 INFO  (Thread-17) [   ] o.a.s.h.d.DocBuilder Import completed successfully
+2020-06-27 17:42:26.341 INFO  (Thread-17) [   ] o.a.s.u.DirectUpdateHandler2 start commit{_version_=1670674903299260416,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2020-06-27 17:42:26.342 INFO  (Thread-17) [   ] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@731ec0cc commitCommandVersion:1670674903299260416
+2020-06-27 17:42:27.068 INFO  (Thread-17) [   ] o.a.s.s.SolrIndexSearcher Opening [Searcher@7e0fa015[FileCollection] main]
+2020-06-27 17:42:27.069 INFO  (searcherExecutor-10-thread-1) [   ] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@7e0fa015[FileCollection] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_pv(8.0.0):C8:[diagnostics={os=Windows 10, java.vendor=Oracle Corporation, java.version=1.8.0_251, java.vm.version=25.251-b08, lucene.version=8.0.0, os.arch=amd64, java.runtime.version=1.8.0_251-b08, source=flush, os.version=10.0, timestamp=1593279746378}]:[attributes={Lucene50StoredFieldsFormat.mode=BEST_SPEED}])))}
+2020-06-27 17:42:27.069 INFO  (searcherExecutor-10-thread-1) [   ] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2020-06-27 17:42:27.070 INFO  (Thread-17) [   ] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2020-06-27 17:42:27.072 INFO  (searcherExecutor-10-thread-1) [   ] o.a.s.c.SolrCore [FileCollection] Registered new searcher Searcher@7e0fa015[FileCollection] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_pv(8.0.0):C8:[diagnostics={os=Windows 10, java.vendor=Oracle Corporation, java.version=1.8.0_251, java.vm.version=25.251-b08, lucene.version=8.0.0, os.arch=amd64, java.runtime.version=1.8.0_251-b08, source=flush, os.version=10.0, timestamp=1593279746378}]:[attributes={Lucene50StoredFieldsFormat.mode=BEST_SPEED}])))}
+2020-06-27 17:42:27.082 INFO  (Thread-17) [   ] o.a.s.h.d.SimplePropertiesWriter Read dataimport.properties
+2020-06-27 17:42:27.083 INFO  (Thread-17) [   ] o.a.s.h.d.SimplePropertiesWriter Wrote last indexed time to dataimport.properties
+2020-06-27 17:42:27.083 INFO  (Thread-17) [   ] o.a.s.h.d.DocBuilder Time taken = 0:0:1.943
+2020-06-27 17:42:27.083 INFO  (Thread-17) [   ] o.a.s.u.p.LogUpdateProcessorFactory [FileCollection]  webapp=/solr path=/dataimport params={command=full-import} status=0 QTime=3{deleteByQuery=*:* (-1670674902045163520),add=[1 (1670674902298918912), 2 (1670674902401679360), 3 (1670674902526459904), 4 (1670674902591471616), 5 (1670674902702620672), 7 (1670674902982590464), 8 (1670674903094788096), 9 (1670674903282483200)],commit=} 0 1967
+2020-06-27 17:42:30.286 INFO  (qtp349420578-17) [   x:FileCollection] o.a.s.h.d.DataImporter Loading DIH Configuration: db-data-config.xml
+2020-06-27 17:42:30.288 INFO  (qtp349420578-17) [   x:FileCollection] o.a.s.h.d.c.DIHConfiguration id is a required field in SolrSchema . But not found in DataConfig
+2020-06-27 17:42:30.288 INFO  (qtp349420578-17) [   x:FileCollection] o.a.s.h.d.DataImporter Data Configuration loaded successfully
+2020-06-27 17:42:30.289 INFO  (qtp349420578-17) [   x:FileCollection] o.a.s.c.S.Request [FileCollection]  webapp=/solr path=/dataimport params={command=full-import} status=0 QTime=3
+2020-06-27 17:42:30.290 INFO  (Thread-18) [   ] o.a.s.h.d.DataImporter Starting Full Import
+2020-06-27 17:42:30.303 INFO  (qtp349420578-14) [   x:FileCollection] o.a.s.c.S.Request [FileCollection]  webapp=/solr path=/select params={q=text:*info*&start=0&rows=5&wt=php} hits=6 status=0 QTime=11
+2020-06-27 17:42:30.313 INFO  (Thread-18) [   ] o.a.s.h.d.SimplePropertiesWriter Read dataimport.properties
+2020-06-27 17:42:30.320 INFO  (Thread-18) [   ] o.a.s.s.SolrIndexSearcher Opening [Searcher@706806a0[FileCollection] realtime]
+2020-06-27 17:42:30.326 INFO  (Thread-18) [   ] o.a.s.h.d.JdbcDataSource Creating a connection for entity search with URL: jdbc:mysql://localhost:3306/laravel?serverTimezone=UTC
+2020-06-27 17:42:30.330 INFO  (Thread-18) [   ] o.a.s.h.d.JdbcDataSource Time taken for getConnection(): 3
+2020-06-27 17:42:30.337 INFO  (Thread-18) [   ] o.a.s.h.d.JdbcDataSource Creating a connection for entity user with URL: jdbc:mysql://localhost:3306/laravel?serverTimezone=UTC
+2020-06-27 17:42:30.345 INFO  (Thread-18) [   ] o.a.s.h.d.JdbcDataSource Time taken for getConnection(): 7
+2020-06-27 17:42:30.521 INFO  (Thread-18) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font Arial,Bold are not implemented in PDFBox and will be ignored
+2020-06-27 17:42:30.531 INFO  (Thread-18) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font Arial are not implemented in PDFBox and will be ignored
+2020-06-27 17:42:30.544 INFO  (Thread-18) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font ABCDEE+Calibri,Bold are not implemented in PDFBox and will be ignored
+2020-06-27 17:42:30.625 INFO  (Thread-18) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font Arial are not implemented in PDFBox and will be ignored
+2020-06-27 17:42:30.628 INFO  (Thread-18) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font ABCDEE+Calibri,Bold are not implemented in PDFBox and will be ignored
+2020-06-27 17:42:30.633 INFO  (Thread-18) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font ABCDEE+MS PGothic are not implemented in PDFBox and will be ignored
+2020-06-27 17:42:30.660 INFO  (Thread-18) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font Arial,Bold are not implemented in PDFBox and will be ignored
+2020-06-27 17:42:30.745 INFO  (Thread-18) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font Arial are not implemented in PDFBox and will be ignored
+2020-06-27 17:42:30.754 INFO  (Thread-18) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font Arial,Bold are not implemented in PDFBox and will be ignored
+2020-06-27 17:42:30.809 INFO  (Thread-18) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font ABCDEE+Calibri,Bold are not implemented in PDFBox and will be ignored
+2020-06-27 17:42:30.814 INFO  (Thread-18) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font Arial are not implemented in PDFBox and will be ignored
+2020-06-27 17:42:30.882 INFO  (Thread-18) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font Arial,Bold are not implemented in PDFBox and will be ignored
+2020-06-27 17:42:31.137 INFO  (Thread-18) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font ABCDEE+Verdana are not implemented in PDFBox and will be ignored
+2020-06-27 17:42:31.160 INFO  (Thread-18) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font ABCDEE+Verdana,Italic are not implemented in PDFBox and will be ignored
+2020-06-27 17:42:31.224 INFO  (Thread-18) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font ABCDEE+Verdana are not implemented in PDFBox and will be ignored
+2020-06-27 17:42:31.250 INFO  (Thread-18) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font Arial are not implemented in PDFBox and will be ignored
+2020-06-27 17:42:31.323 INFO  (Thread-18) [   ] o.a.s.h.d.DocBuilder Import completed successfully
+2020-06-27 17:42:31.323 INFO  (Thread-18) [   ] o.a.s.u.DirectUpdateHandler2 start commit{_version_=1670674908523266048,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2020-06-27 17:42:31.323 INFO  (Thread-18) [   ] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@731ec0cc commitCommandVersion:1670674908523266048
+2020-06-27 17:42:32.079 INFO  (Thread-18) [   ] o.a.s.s.SolrIndexSearcher Opening [Searcher@77219c95[FileCollection] main]
+2020-06-27 17:42:32.081 INFO  (searcherExecutor-10-thread-1) [   ] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@77219c95[FileCollection] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_pw(8.0.0):C8:[diagnostics={os=Windows 10, java.vendor=Oracle Corporation, java.version=1.8.0_251, java.vm.version=25.251-b08, lucene.version=8.0.0, os.arch=amd64, java.runtime.version=1.8.0_251-b08, source=flush, os.version=10.0, timestamp=1593279751395}]:[attributes={Lucene50StoredFieldsFormat.mode=BEST_SPEED}])))}
+2020-06-27 17:42:32.081 INFO  (searcherExecutor-10-thread-1) [   ] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2020-06-27 17:42:32.083 INFO  (Thread-18) [   ] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2020-06-27 17:42:32.084 INFO  (searcherExecutor-10-thread-1) [   ] o.a.s.c.SolrCore [FileCollection] Registered new searcher Searcher@77219c95[FileCollection] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_pw(8.0.0):C8:[diagnostics={os=Windows 10, java.vendor=Oracle Corporation, java.version=1.8.0_251, java.vm.version=25.251-b08, lucene.version=8.0.0, os.arch=amd64, java.runtime.version=1.8.0_251-b08, source=flush, os.version=10.0, timestamp=1593279751395}]:[attributes={Lucene50StoredFieldsFormat.mode=BEST_SPEED}])))}
+2020-06-27 17:42:32.092 INFO  (Thread-18) [   ] o.a.s.h.d.SimplePropertiesWriter Read dataimport.properties
+2020-06-27 17:42:32.093 INFO  (Thread-18) [   ] o.a.s.h.d.SimplePropertiesWriter Wrote last indexed time to dataimport.properties
+2020-06-27 17:42:32.093 INFO  (Thread-18) [   ] o.a.s.h.d.DocBuilder Time taken = 0:0:1.780
+2020-06-27 17:42:32.094 INFO  (Thread-18) [   ] o.a.s.u.p.LogUpdateProcessorFactory [FileCollection]  webapp=/solr path=/dataimport params={command=full-import} status=0 QTime=3{deleteByQuery=*:* (-1670674907469447168),add=[1 (1670674907619393536), 2 (1670674907750465536), 3 (1670674907886780416), 4 (1670674907939209216), 5 (1670674908068184064), 7 (1670674908251684864), 8 (1670674908382756864), 9 (1670674908520120320)],commit=} 0 1808
+2020-06-27 17:42:32.266 INFO  (qtp349420578-21) [   x:FileCollection] o.a.s.h.d.DataImporter Loading DIH Configuration: db-data-config.xml
+2020-06-27 17:42:32.268 INFO  (qtp349420578-21) [   x:FileCollection] o.a.s.h.d.c.DIHConfiguration id is a required field in SolrSchema . But not found in DataConfig
+2020-06-27 17:42:32.268 INFO  (qtp349420578-21) [   x:FileCollection] o.a.s.h.d.DataImporter Data Configuration loaded successfully
+2020-06-27 17:42:32.269 INFO  (qtp349420578-21) [   x:FileCollection] o.a.s.c.S.Request [FileCollection]  webapp=/solr path=/dataimport params={command=full-import} status=0 QTime=3
+2020-06-27 17:42:32.268 INFO  (Thread-19) [   ] o.a.s.h.d.DataImporter Starting Full Import
+2020-06-27 17:42:32.280 INFO  (qtp349420578-17) [   x:FileCollection] o.a.s.c.S.Request [FileCollection]  webapp=/solr path=/select params={q=text:*info*&start=5&rows=5&wt=php} hits=6 status=0 QTime=7
+2020-06-27 17:42:32.286 INFO  (Thread-19) [   ] o.a.s.h.d.SimplePropertiesWriter Read dataimport.properties
+2020-06-27 17:42:32.297 INFO  (Thread-19) [   ] o.a.s.s.SolrIndexSearcher Opening [Searcher@430be409[FileCollection] realtime]
+2020-06-27 17:42:32.304 INFO  (Thread-19) [   ] o.a.s.h.d.JdbcDataSource Creating a connection for entity search with URL: jdbc:mysql://localhost:3306/laravel?serverTimezone=UTC
+2020-06-27 17:42:32.307 INFO  (Thread-19) [   ] o.a.s.h.d.JdbcDataSource Time taken for getConnection(): 3
+2020-06-27 17:42:32.313 INFO  (Thread-19) [   ] o.a.s.h.d.JdbcDataSource Creating a connection for entity user with URL: jdbc:mysql://localhost:3306/laravel?serverTimezone=UTC
+2020-06-27 17:42:32.324 INFO  (Thread-19) [   ] o.a.s.h.d.JdbcDataSource Time taken for getConnection(): 11
+2020-06-27 17:42:32.597 INFO  (Thread-19) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font Arial,Bold are not implemented in PDFBox and will be ignored
+2020-06-27 17:42:32.607 INFO  (Thread-19) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font Arial are not implemented in PDFBox and will be ignored
+2020-06-27 17:42:32.611 INFO  (Thread-19) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font ABCDEE+Calibri,Bold are not implemented in PDFBox and will be ignored
+2020-06-27 17:42:32.730 INFO  (Thread-19) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font Arial are not implemented in PDFBox and will be ignored
+2020-06-27 17:42:32.733 INFO  (Thread-19) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font ABCDEE+Calibri,Bold are not implemented in PDFBox and will be ignored
+2020-06-27 17:42:32.738 INFO  (Thread-19) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font ABCDEE+MS PGothic are not implemented in PDFBox and will be ignored
+2020-06-27 17:42:32.771 INFO  (Thread-19) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font Arial,Bold are not implemented in PDFBox and will be ignored
+2020-06-27 17:42:32.829 INFO  (Thread-19) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font Arial are not implemented in PDFBox and will be ignored
+2020-06-27 17:42:32.838 INFO  (Thread-19) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font Arial,Bold are not implemented in PDFBox and will be ignored
+2020-06-27 17:42:33.017 INFO  (Thread-19) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font ABCDEE+Calibri,Bold are not implemented in PDFBox and will be ignored
+2020-06-27 17:42:33.026 INFO  (Thread-19) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font Arial are not implemented in PDFBox and will be ignored
+2020-06-27 17:42:33.202 INFO  (Thread-19) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font Arial,Bold are not implemented in PDFBox and will be ignored
+2020-06-27 17:42:33.541 INFO  (Thread-19) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font ABCDEE+Verdana are not implemented in PDFBox and will be ignored
+2020-06-27 17:42:33.605 INFO  (Thread-19) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font ABCDEE+Verdana,Italic are not implemented in PDFBox and will be ignored
+2020-06-27 17:42:33.744 INFO  (Thread-19) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font ABCDEE+Verdana are not implemented in PDFBox and will be ignored
+2020-06-27 17:42:33.752 INFO  (Thread-19) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font Arial are not implemented in PDFBox and will be ignored
+2020-06-27 17:42:33.898 INFO  (qtp349420578-21) [   x:FileCollection] o.a.s.c.S.Request [FileCollection]  webapp=/solr path=/dataimport params={command=full-import} status=0 QTime=0
+2020-06-27 17:42:33.903 INFO  (qtp349420578-14) [   x:FileCollection] o.a.s.c.S.Request [FileCollection]  webapp=/solr path=/select params={q=text:*info*&start=0&rows=5&wt=php} hits=6 status=0 QTime=2
+2020-06-27 17:42:33.915 INFO  (Thread-19) [   ] o.a.s.h.d.DocBuilder Import completed successfully
+2020-06-27 17:42:33.916 INFO  (Thread-19) [   ] o.a.s.u.DirectUpdateHandler2 start commit{_version_=1670674911242223616,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2020-06-27 17:42:33.917 INFO  (Thread-19) [   ] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@731ec0cc commitCommandVersion:1670674911242223616
+2020-06-27 17:42:35.038 INFO  (Thread-19) [   ] o.a.s.s.SolrIndexSearcher Opening [Searcher@1a3e87a8[FileCollection] main]
+2020-06-27 17:42:35.039 INFO  (searcherExecutor-10-thread-1) [   ] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@1a3e87a8[FileCollection] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_px(8.0.0):C8:[diagnostics={os=Windows 10, java.vendor=Oracle Corporation, java.version=1.8.0_251, java.vm.version=25.251-b08, lucene.version=8.0.0, os.arch=amd64, java.runtime.version=1.8.0_251-b08, source=flush, os.version=10.0, timestamp=1593279753955}]:[attributes={Lucene50StoredFieldsFormat.mode=BEST_SPEED}])))}
+2020-06-27 17:42:35.039 INFO  (searcherExecutor-10-thread-1) [   ] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2020-06-27 17:42:35.040 INFO  (Thread-19) [   ] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2020-06-27 17:42:35.042 INFO  (searcherExecutor-10-thread-1) [   ] o.a.s.c.SolrCore [FileCollection] Registered new searcher Searcher@1a3e87a8[FileCollection] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_px(8.0.0):C8:[diagnostics={os=Windows 10, java.vendor=Oracle Corporation, java.version=1.8.0_251, java.vm.version=25.251-b08, lucene.version=8.0.0, os.arch=amd64, java.runtime.version=1.8.0_251-b08, source=flush, os.version=10.0, timestamp=1593279753955}]:[attributes={Lucene50StoredFieldsFormat.mode=BEST_SPEED}])))}
+2020-06-27 17:42:35.047 INFO  (Thread-19) [   ] o.a.s.h.d.SimplePropertiesWriter Read dataimport.properties
+2020-06-27 17:42:35.047 INFO  (Thread-19) [   ] o.a.s.h.d.SimplePropertiesWriter Wrote last indexed time to dataimport.properties
+2020-06-27 17:42:35.048 INFO  (Thread-19) [   ] o.a.s.h.d.DocBuilder Time taken = 0:0:2.760
+2020-06-27 17:42:35.048 INFO  (Thread-19) [   ] o.a.s.u.p.LogUpdateProcessorFactory [FileCollection]  webapp=/solr path=/dataimport params={command=full-import} status=0 QTime=3{deleteByQuery=*:* (-1670674909542481920),add=[1 (1670674909825597440), 2 (1670674909943037952), 3 (1670674910074109952), 4 (1670674910122344448), 5 (1670674910506123264), 7 (1670674910785044480), 8 (1670674910974836736), 9 (1670674911236980736)],commit=} 0 2782
+2020-06-27 17:48:02.368 INFO  (qtp349420578-15) [   x:FileCollection] o.a.s.h.d.DataImporter Loading DIH Configuration: db-data-config.xml
+2020-06-27 17:48:02.393 INFO  (qtp349420578-15) [   x:FileCollection] o.a.s.h.d.c.DIHConfiguration id is a required field in SolrSchema . But not found in DataConfig
+2020-06-27 17:48:02.394 INFO  (qtp349420578-15) [   x:FileCollection] o.a.s.h.d.DataImporter Data Configuration loaded successfully
+2020-06-27 17:48:02.394 INFO  (qtp349420578-15) [   x:FileCollection] o.a.s.c.S.Request [FileCollection]  webapp=/solr path=/dataimport params={command=full-import} status=0 QTime=27
+2020-06-27 17:48:02.394 INFO  (Thread-20) [   ] o.a.s.h.d.DataImporter Starting Full Import
+2020-06-27 17:48:02.401 INFO  (Thread-20) [   ] o.a.s.h.d.SimplePropertiesWriter Read dataimport.properties
+2020-06-27 17:48:02.413 INFO  (Thread-20) [   ] o.a.s.s.SolrIndexSearcher Opening [Searcher@7d373566[FileCollection] realtime]
+2020-06-27 17:48:02.423 INFO  (Thread-20) [   ] o.a.s.h.d.JdbcDataSource Creating a connection for entity search with URL: jdbc:mysql://localhost:3306/laravel?serverTimezone=UTC
+2020-06-27 17:48:02.431 INFO  (Thread-20) [   ] o.a.s.h.d.JdbcDataSource Time taken for getConnection(): 7
+2020-06-27 17:48:02.445 INFO  (Thread-20) [   ] o.a.s.h.d.JdbcDataSource Creating a connection for entity user with URL: jdbc:mysql://localhost:3306/laravel?serverTimezone=UTC
+2020-06-27 17:48:02.455 INFO  (Thread-20) [   ] o.a.s.h.d.JdbcDataSource Time taken for getConnection(): 9
+2020-06-27 17:48:02.710 INFO  (Thread-20) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font Arial,Bold are not implemented in PDFBox and will be ignored
+2020-06-27 17:48:02.717 INFO  (Thread-20) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font Arial are not implemented in PDFBox and will be ignored
+2020-06-27 17:48:02.720 INFO  (Thread-20) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font ABCDEE+Calibri,Bold are not implemented in PDFBox and will be ignored
+2020-06-27 17:48:02.783 INFO  (Thread-20) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font Arial are not implemented in PDFBox and will be ignored
+2020-06-27 17:48:02.786 INFO  (Thread-20) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font ABCDEE+Calibri,Bold are not implemented in PDFBox and will be ignored
+2020-06-27 17:48:02.790 INFO  (Thread-20) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font ABCDEE+MS PGothic are not implemented in PDFBox and will be ignored
+2020-06-27 17:48:02.809 INFO  (Thread-20) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font Arial,Bold are not implemented in PDFBox and will be ignored
+2020-06-27 17:48:02.893 INFO  (Thread-20) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font Arial are not implemented in PDFBox and will be ignored
+2020-06-27 17:48:02.906 INFO  (Thread-20) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font Arial,Bold are not implemented in PDFBox and will be ignored
+2020-06-27 17:48:03.006 INFO  (Thread-20) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font ABCDEE+Calibri,Bold are not implemented in PDFBox and will be ignored
+2020-06-27 17:48:03.017 INFO  (Thread-20) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font Arial are not implemented in PDFBox and will be ignored
+2020-06-27 17:48:03.120 INFO  (Thread-20) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font Arial,Bold are not implemented in PDFBox and will be ignored
+2020-06-27 17:48:03.636 INFO  (Thread-20) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font ABCDEE+Verdana are not implemented in PDFBox and will be ignored
+2020-06-27 17:48:03.686 INFO  (Thread-20) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font ABCDEE+Verdana,Italic are not implemented in PDFBox and will be ignored
+2020-06-27 17:48:03.969 INFO  (Thread-20) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font ABCDEE+Verdana are not implemented in PDFBox and will be ignored
+2020-06-27 17:48:03.978 INFO  (Thread-20) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font Arial are not implemented in PDFBox and will be ignored
+2020-06-27 17:48:04.083 INFO  (Thread-20) [   ] o.a.s.h.d.DocBuilder Import completed successfully
+2020-06-27 17:48:04.083 INFO  (Thread-20) [   ] o.a.s.u.DirectUpdateHandler2 start commit{_version_=1670675257447415808,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2020-06-27 17:48:04.083 INFO  (Thread-20) [   ] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@731ec0cc commitCommandVersion:1670675257447415808
+2020-06-27 17:48:05.002 INFO  (Thread-20) [   ] o.a.s.s.SolrIndexSearcher Opening [Searcher@6a7dc802[FileCollection] main]
+2020-06-27 17:48:05.003 INFO  (searcherExecutor-10-thread-1) [   ] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@6a7dc802[FileCollection] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_py(8.0.0):C8:[diagnostics={os=Windows 10, java.vendor=Oracle Corporation, java.version=1.8.0_251, java.vm.version=25.251-b08, lucene.version=8.0.0, os.arch=amd64, java.runtime.version=1.8.0_251-b08, source=flush, os.version=10.0, timestamp=1593280084102}]:[attributes={Lucene50StoredFieldsFormat.mode=BEST_SPEED}])))}
+2020-06-27 17:48:05.003 INFO  (searcherExecutor-10-thread-1) [   ] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2020-06-27 17:48:05.004 INFO  (Thread-20) [   ] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2020-06-27 17:48:05.005 INFO  (searcherExecutor-10-thread-1) [   ] o.a.s.c.SolrCore [FileCollection] Registered new searcher Searcher@6a7dc802[FileCollection] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_py(8.0.0):C8:[diagnostics={os=Windows 10, java.vendor=Oracle Corporation, java.version=1.8.0_251, java.vm.version=25.251-b08, lucene.version=8.0.0, os.arch=amd64, java.runtime.version=1.8.0_251-b08, source=flush, os.version=10.0, timestamp=1593280084102}]:[attributes={Lucene50StoredFieldsFormat.mode=BEST_SPEED}])))}
+2020-06-27 17:48:05.012 INFO  (Thread-20) [   ] o.a.s.h.d.SimplePropertiesWriter Read dataimport.properties
+2020-06-27 17:48:05.012 INFO  (Thread-20) [   ] o.a.s.h.d.SimplePropertiesWriter Wrote last indexed time to dataimport.properties
+2020-06-27 17:48:05.013 INFO  (Thread-20) [   ] o.a.s.h.d.DocBuilder Time taken = 0:0:2.612
+2020-06-27 17:48:05.013 INFO  (Thread-20) [   ] o.a.s.u.p.LogUpdateProcessorFactory [FileCollection]  webapp=/solr path=/dataimport params={command=full-import} status=0 QTime=27{deleteByQuery=*:* (-1670675255688953856),add=[1 (1670675255951097856), 2 (1670675256046518272), 3 (1670675256142987264), 4 (1670675256233164800), 5 (1670675256446025728), 7 (1670675256748015616), 8 (1670675257102434304), 9 (1670675257444270080)],commit=} 0 2646
+2020-06-27 17:48:12.196 INFO  (qtp349420578-21) [   x:FileCollection] o.a.s.h.d.DataImporter Loading DIH Configuration: db-data-config.xml
+2020-06-27 17:48:12.198 INFO  (qtp349420578-21) [   x:FileCollection] o.a.s.h.d.c.DIHConfiguration id is a required field in SolrSchema . But not found in DataConfig
+2020-06-27 17:48:12.198 INFO  (qtp349420578-21) [   x:FileCollection] o.a.s.h.d.DataImporter Data Configuration loaded successfully
+2020-06-27 17:48:12.198 INFO  (qtp349420578-21) [   x:FileCollection] o.a.s.c.S.Request [FileCollection]  webapp=/solr path=/dataimport params={command=full-import} status=0 QTime=3
+2020-06-27 17:48:12.198 INFO  (Thread-21) [   ] o.a.s.h.d.DataImporter Starting Full Import
+2020-06-27 17:48:12.203 INFO  (Thread-21) [   ] o.a.s.h.d.SimplePropertiesWriter Read dataimport.properties
+2020-06-27 17:48:12.209 INFO  (Thread-21) [   ] o.a.s.s.SolrIndexSearcher Opening [Searcher@534d94f[FileCollection] realtime]
+2020-06-27 17:48:12.217 INFO  (qtp349420578-17) [   x:FileCollection] o.a.s.c.S.Request [FileCollection]  webapp=/solr path=/select params={q=text:*ouarrachi*&start=0&rows=5&wt=php} hits=4 status=0 QTime=5
+2020-06-27 17:48:12.222 INFO  (Thread-21) [   ] o.a.s.h.d.JdbcDataSource Creating a connection for entity search with URL: jdbc:mysql://localhost:3306/laravel?serverTimezone=UTC
+2020-06-27 17:48:12.234 INFO  (Thread-21) [   ] o.a.s.h.d.JdbcDataSource Time taken for getConnection(): 12
+2020-06-27 17:48:12.240 INFO  (Thread-21) [   ] o.a.s.h.d.JdbcDataSource Creating a connection for entity user with URL: jdbc:mysql://localhost:3306/laravel?serverTimezone=UTC
+2020-06-27 17:48:12.249 INFO  (Thread-21) [   ] o.a.s.h.d.JdbcDataSource Time taken for getConnection(): 8
+2020-06-27 17:48:12.364 INFO  (Thread-21) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font Arial,Bold are not implemented in PDFBox and will be ignored
+2020-06-27 17:48:12.368 INFO  (Thread-21) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font Arial are not implemented in PDFBox and will be ignored
+2020-06-27 17:48:12.370 INFO  (Thread-21) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font ABCDEE+Calibri,Bold are not implemented in PDFBox and will be ignored
+2020-06-27 17:48:12.414 INFO  (Thread-21) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font Arial are not implemented in PDFBox and will be ignored
+2020-06-27 17:48:12.417 INFO  (Thread-21) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font ABCDEE+Calibri,Bold are not implemented in PDFBox and will be ignored
+2020-06-27 17:48:12.420 INFO  (Thread-21) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font ABCDEE+MS PGothic are not implemented in PDFBox and will be ignored
+2020-06-27 17:48:12.452 INFO  (Thread-21) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font Arial,Bold are not implemented in PDFBox and will be ignored
+2020-06-27 17:48:12.485 INFO  (Thread-21) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font Arial are not implemented in PDFBox and will be ignored
+2020-06-27 17:48:12.491 INFO  (Thread-21) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font Arial,Bold are not implemented in PDFBox and will be ignored
+2020-06-27 17:48:12.553 INFO  (Thread-21) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font ABCDEE+Calibri,Bold are not implemented in PDFBox and will be ignored
+2020-06-27 17:48:12.557 INFO  (Thread-21) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font Arial are not implemented in PDFBox and will be ignored
+2020-06-27 17:48:12.594 INFO  (Thread-21) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font Arial,Bold are not implemented in PDFBox and will be ignored
+2020-06-27 17:48:12.768 INFO  (Thread-21) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font ABCDEE+Verdana are not implemented in PDFBox and will be ignored
+2020-06-27 17:48:12.784 INFO  (Thread-21) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font ABCDEE+Verdana,Italic are not implemented in PDFBox and will be ignored
+2020-06-27 17:48:12.925 INFO  (Thread-21) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font ABCDEE+Verdana are not implemented in PDFBox and will be ignored
+2020-06-27 17:48:12.933 INFO  (Thread-21) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font Arial are not implemented in PDFBox and will be ignored
+2020-06-27 17:48:12.997 INFO  (Thread-21) [   ] o.a.s.h.d.DocBuilder Import completed successfully
+2020-06-27 17:48:12.997 INFO  (Thread-21) [   ] o.a.s.u.DirectUpdateHandler2 start commit{_version_=1670675266794422272,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2020-06-27 17:48:12.997 INFO  (Thread-21) [   ] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@731ec0cc commitCommandVersion:1670675266794422272
+2020-06-27 17:48:14.359 INFO  (Thread-21) [   ] o.a.s.s.SolrIndexSearcher Opening [Searcher@43bacb6a[FileCollection] main]
+2020-06-27 17:48:14.360 INFO  (searcherExecutor-10-thread-1) [   ] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@43bacb6a[FileCollection] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_pz(8.0.0):C8:[diagnostics={os=Windows 10, java.vendor=Oracle Corporation, java.version=1.8.0_251, java.vm.version=25.251-b08, lucene.version=8.0.0, os.arch=amd64, java.runtime.version=1.8.0_251-b08, source=flush, os.version=10.0, timestamp=1593280093007}]:[attributes={Lucene50StoredFieldsFormat.mode=BEST_SPEED}])))}
+2020-06-27 17:48:14.360 INFO  (searcherExecutor-10-thread-1) [   ] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2020-06-27 17:48:14.361 INFO  (Thread-21) [   ] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2020-06-27 17:48:14.362 INFO  (searcherExecutor-10-thread-1) [   ] o.a.s.c.SolrCore [FileCollection] Registered new searcher Searcher@43bacb6a[FileCollection] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_pz(8.0.0):C8:[diagnostics={os=Windows 10, java.vendor=Oracle Corporation, java.version=1.8.0_251, java.vm.version=25.251-b08, lucene.version=8.0.0, os.arch=amd64, java.runtime.version=1.8.0_251-b08, source=flush, os.version=10.0, timestamp=1593280093007}]:[attributes={Lucene50StoredFieldsFormat.mode=BEST_SPEED}])))}
+2020-06-27 17:48:14.368 INFO  (Thread-21) [   ] o.a.s.h.d.SimplePropertiesWriter Read dataimport.properties
+2020-06-27 17:48:14.368 INFO  (Thread-21) [   ] o.a.s.h.d.SimplePropertiesWriter Wrote last indexed time to dataimport.properties
+2020-06-27 17:48:14.369 INFO  (Thread-21) [   ] o.a.s.h.d.DocBuilder Time taken = 0:0:2.165
+2020-06-27 17:48:14.369 INFO  (Thread-21) [   ] o.a.s.u.p.LogUpdateProcessorFactory [FileCollection]  webapp=/solr path=/dataimport params={command=full-import} status=0 QTime=3{deleteByQuery=*:* (-1670675265966047232),add=[1 (1670675266108653568), 2 (1670675266153742336), 3 (1670675266239725568), 4 (1670675266273280000), 5 (1670675266377089024), 7 (1670675266529132544), 8 (1670675266596241408), 9 (1670675266791276544)],commit=} 0 2173
+2020-06-27 17:48:30.216 INFO  (qtp349420578-20) [   x:FileCollection] o.a.s.h.d.DataImporter Loading DIH Configuration: db-data-config.xml
+2020-06-27 17:48:30.217 INFO  (qtp349420578-20) [   x:FileCollection] o.a.s.h.d.c.DIHConfiguration id is a required field in SolrSchema . But not found in DataConfig
+2020-06-27 17:48:30.217 INFO  (qtp349420578-20) [   x:FileCollection] o.a.s.h.d.DataImporter Data Configuration loaded successfully
+2020-06-27 17:48:30.218 INFO  (Thread-22) [   ] o.a.s.h.d.DataImporter Starting Full Import
+2020-06-27 17:48:30.218 INFO  (qtp349420578-20) [   x:FileCollection] o.a.s.c.S.Request [FileCollection]  webapp=/solr path=/dataimport params={command=full-import} status=0 QTime=3
+2020-06-27 17:48:30.227 INFO  (qtp349420578-21) [   x:FileCollection] o.a.s.c.S.Request [FileCollection]  webapp=/solr path=/select params={q=text:*algorithme*&start=0&rows=5&wt=php} hits=3 status=0 QTime=6
+2020-06-27 17:48:30.225 INFO  (Thread-22) [   ] o.a.s.h.d.SimplePropertiesWriter Read dataimport.properties
+2020-06-27 17:48:30.244 INFO  (Thread-22) [   ] o.a.s.s.SolrIndexSearcher Opening [Searcher@5d5a2eb8[FileCollection] realtime]
+2020-06-27 17:48:30.251 INFO  (Thread-22) [   ] o.a.s.h.d.JdbcDataSource Creating a connection for entity search with URL: jdbc:mysql://localhost:3306/laravel?serverTimezone=UTC
+2020-06-27 17:48:30.255 INFO  (Thread-22) [   ] o.a.s.h.d.JdbcDataSource Time taken for getConnection(): 4
+2020-06-27 17:48:30.263 INFO  (Thread-22) [   ] o.a.s.h.d.JdbcDataSource Creating a connection for entity user with URL: jdbc:mysql://localhost:3306/laravel?serverTimezone=UTC
+2020-06-27 17:48:30.266 INFO  (Thread-22) [   ] o.a.s.h.d.JdbcDataSource Time taken for getConnection(): 3
+2020-06-27 17:48:30.386 INFO  (Thread-22) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font Arial,Bold are not implemented in PDFBox and will be ignored
+2020-06-27 17:48:30.392 INFO  (Thread-22) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font Arial are not implemented in PDFBox and will be ignored
+2020-06-27 17:48:30.395 INFO  (Thread-22) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font ABCDEE+Calibri,Bold are not implemented in PDFBox and will be ignored
+2020-06-27 17:48:30.474 INFO  (Thread-22) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font Arial are not implemented in PDFBox and will be ignored
+2020-06-27 17:48:30.477 INFO  (Thread-22) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font ABCDEE+Calibri,Bold are not implemented in PDFBox and will be ignored
+2020-06-27 17:48:30.482 INFO  (Thread-22) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font ABCDEE+MS PGothic are not implemented in PDFBox and will be ignored
+2020-06-27 17:48:30.510 INFO  (Thread-22) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font Arial,Bold are not implemented in PDFBox and will be ignored
+2020-06-27 17:48:30.597 INFO  (Thread-22) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font Arial are not implemented in PDFBox and will be ignored
+2020-06-27 17:48:30.607 INFO  (Thread-22) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font Arial,Bold are not implemented in PDFBox and will be ignored
+2020-06-27 17:48:30.705 INFO  (Thread-22) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font ABCDEE+Calibri,Bold are not implemented in PDFBox and will be ignored
+2020-06-27 17:48:30.711 INFO  (Thread-22) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font Arial are not implemented in PDFBox and will be ignored
+2020-06-27 17:48:30.762 INFO  (Thread-22) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font Arial,Bold are not implemented in PDFBox and will be ignored
+2020-06-27 17:48:30.936 INFO  (Thread-22) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font ABCDEE+Verdana are not implemented in PDFBox and will be ignored
+2020-06-27 17:48:30.949 INFO  (Thread-22) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font ABCDEE+Verdana,Italic are not implemented in PDFBox and will be ignored
+2020-06-27 17:48:31.023 INFO  (Thread-22) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font ABCDEE+Verdana are not implemented in PDFBox and will be ignored
+2020-06-27 17:48:31.030 INFO  (Thread-22) [   ] o.a.p.p.f.PDCIDFontType2 OpenType Layout tables used in font Arial are not implemented in PDFBox and will be ignored
+2020-06-27 17:48:31.107 INFO  (Thread-22) [   ] o.a.s.h.d.DocBuilder Import completed successfully
+2020-06-27 17:48:31.107 INFO  (Thread-22) [   ] o.a.s.u.DirectUpdateHandler2 start commit{_version_=1670675285784133632,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2020-06-27 17:48:31.107 INFO  (Thread-22) [   ] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@731ec0cc commitCommandVersion:1670675285784133632
+2020-06-27 17:48:31.951 INFO  (Thread-22) [   ] o.a.s.s.SolrIndexSearcher Opening [Searcher@4a4b98f2[FileCollection] main]
+2020-06-27 17:48:31.953 INFO  (searcherExecutor-10-thread-1) [   ] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@4a4b98f2[FileCollection] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_q0(8.0.0):C8:[diagnostics={os=Windows 10, java.vendor=Oracle Corporation, java.version=1.8.0_251, java.vm.version=25.251-b08, lucene.version=8.0.0, os.arch=amd64, java.runtime.version=1.8.0_251-b08, source=flush, os.version=10.0, timestamp=1593280111116}]:[attributes={Lucene50StoredFieldsFormat.mode=BEST_SPEED}])))}
+2020-06-27 17:48:31.953 INFO  (searcherExecutor-10-thread-1) [   ] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2020-06-27 17:48:31.954 INFO  (Thread-22) [   ] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2020-06-27 17:48:31.956 INFO  (searcherExecutor-10-thread-1) [   ] o.a.s.c.SolrCore [FileCollection] Registered new searcher Searcher@4a4b98f2[FileCollection] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_q0(8.0.0):C8:[diagnostics={os=Windows 10, java.vendor=Oracle Corporation, java.version=1.8.0_251, java.vm.version=25.251-b08, lucene.version=8.0.0, os.arch=amd64, java.runtime.version=1.8.0_251-b08, source=flush, os.version=10.0, timestamp=1593280111116}]:[attributes={Lucene50StoredFieldsFormat.mode=BEST_SPEED}])))}
+2020-06-27 17:48:31.969 INFO  (Thread-22) [   ] o.a.s.h.d.SimplePropertiesWriter Read dataimport.properties
+2020-06-27 17:48:31.969 INFO  (Thread-22) [   ] o.a.s.h.d.SimplePropertiesWriter Wrote last indexed time to dataimport.properties
+2020-06-27 17:48:31.969 INFO  (Thread-22) [   ] o.a.s.h.d.DocBuilder Time taken = 0:0:1.739
+2020-06-27 17:48:31.969 INFO  (Thread-22) [   ] o.a.s.u.p.LogUpdateProcessorFactory [FileCollection]  webapp=/solr path=/dataimport params={command=full-import} status=0 QTime=3{deleteByQuery=*:* (-1670675284877115392),add=[1 (1670675285007138816), 2 (1670675285077393408), 3 (1670675285191688192), 4 (1670675285295497216), 5 (1670675285427617792), 7 (1670675285572321280), 8 (1670675285660401664), 9 (1670675285782036480)],commit=} 0 1755
