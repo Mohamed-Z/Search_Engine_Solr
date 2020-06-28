@@ -11,10 +11,11 @@
 
   <document>
     
-   <entity name="search" dataSource="mydb" query="select id as 'id', title, name, description, type, path_file, user_id from files;" >
+   <entity name="search" dataSource="mydb" query="select id as 'id', title, name, description, type, path_file, user_id, created_at from files;" >
 	
 	<field column="path_file" name="path_file" />
 	<field column="name" name="name" />
+	<field column="created_at" name="date_up" />
 
 	<entity name="user" dataSource="mydb" query="select name from users where id=${search.user_id};" >
 	<field column="name" name="user_name" />
