@@ -451,7 +451,7 @@
   <field name="path_file" type="text_general" uninvertible="true" indexed="true" stored="true"/>
  <field name="_version_" type="plong" indexed="false" stored="false"/>
   <field name="user_name" type="text_general" uninvertible="true" indexed="true" stored="true"/>
- <field name="date_up" type="text_general" indexed="true" stored="true"/>
+ <field name="date_up" type="string" indexed="true" stored="true"/>
 
 	
 
