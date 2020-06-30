@@ -32,8 +32,28 @@
              <field column="text" name="text" />  
               
              </entity>
-	</entity>
+    </entity>
+	
+    <entity name="search2" dataSource="mydb" query="select code as 'id', title, name, description, type, path, user_id, created_at from documents;" >
+	
+	<field column="path" name="path_file" />
+	<field column="name" name="name" />
+	<field column="created_at" name="date_up" />
+	<field column="user_id" name="user_name" />
 
+
+	<entity name="file" 
+                    dataSource="data" 
+		    onError="skip"
+                    processor="TikaEntityProcessor" 
+                    url="${search2.path}" 
+
+                    format="text">
+              
+             <field column="text" name="text" />  
+              
+             </entity>
+    </entity>
 	
   </document>
 </dataConfig>
